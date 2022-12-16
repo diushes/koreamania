@@ -7,6 +7,9 @@ import Search from "./components/Search";
 import NotFound from "./components/NotFound";
 
 class App extends Component {
+  state = {
+    color: "Black"
+  }
   // Prevent page reload, clear input, set URL and push history on submit
   handleSubmit = (e, history, searchInput) => {
     e.preventDefault();
@@ -32,7 +35,7 @@ class App extends Component {
               <Route
                 exact
                 path="/"
-                render={() => <Redirect to="/mountain" />}
+                render={() => <Redirect to="/Korea" />}
               />
 
               <Route
