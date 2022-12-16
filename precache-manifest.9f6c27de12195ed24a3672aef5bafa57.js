@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "535f463c38a726cd4e240d904d4e671e",
+    "revision": "eea8a87166fd11226def35a92f4acb07",
     "url": "/koreamania/index.html"
   },
   {
-    "revision": "f911b26f1953ee809785",
+    "revision": "5089c31317ecaff5e92e",
     "url": "/koreamania/static/css/main.1b83491f.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/koreamania/static/js/2.00509c9c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f911b26f1953ee809785",
-    "url": "/koreamania/static/js/main.c0cc608b.chunk.js"
+    "revision": "5089c31317ecaff5e92e",
+    "url": "/koreamania/static/js/main.7c7a117e.chunk.js"
   },
   {
     "revision": "b1dba4cde312132f7483",
