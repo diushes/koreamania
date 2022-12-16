@@ -36,18 +36,19 @@ class App extends Component {
               />
 
               <Route
-                path="/mountain"
-                render={() => <Item searchTerm="mountain" />}
+                path="/Korea"
+                render={() => <Item searchTerm="Korea" />}
               />
-              <Route path="/beach" render={() => <Item searchTerm="beach" />} />
-              <Route path="/bird" render={() => <Item searchTerm="bird" />} />
-              <Route path="/food" render={() => <Item searchTerm="food" />} />
+              <Route path="/food" render={() => <Item searchTerm="korean food" />} />
+              <Route path="/people" render={() => <Item searchTerm="korean faces" />} />
+              <Route path="/culture" render={() => <Item searchTerm="korean culture" />} />
               <Route
                 path="/search/:searchInput"
                 render={props => (
                   <Search searchTerm={props.match.params.searchInput} />
                 )}
               />
+
               <Route component={NotFound} />
             </Switch>
           </div>
