@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Item from "./components/Item";
 import Search from "./components/Search";
 import NotFound from "./components/NotFound";
+import "./App.css"
 
 class App extends Component {
   state = {
@@ -20,9 +21,11 @@ class App extends Component {
 
   render() {
     return (
-      <PhotoContextProvider>
+      <PhotoContextProvider >
         <HashRouter basename="/SnapScout">
-          <div className="container">
+          <div className="container" style={{
+            backgroundImage: `url("https://cdn.pixabay.com/photo/2017/02/16/19/47/bokeh-2072271__480.jpg")`
+          }}>
             <Route
               render={props => (
                 <Header

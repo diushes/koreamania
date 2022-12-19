@@ -37,3 +37,11 @@
     transform: rotate(360deg);
   }
 }
+
+.main-nav a {
+  display: block;
+  background: #93172b;
+  border-radius: 10px;
+  padding: 5px;
+  color: #fff;
+}
